@@ -82,6 +82,9 @@ body {
     .social ul li{
       list-style: none;
     }
+    .social ul li a{
+      text-decoration: none;
+    }
     .form{
       padding: 20px;
     }
@@ -109,4 +112,119 @@ body {
     .thanks{
       padding: 20px;
     }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .background{
+    width:100vw;
+    height: 600px;
+  }
+  .background img{
+    width: 100%;
+    height: 600px;
+  }
+  .profession{
+    padding-left: 8%;
+    padding-top: 8%;
+    padding-bottom:8%;
+  }
+  .presentacion{
+    padding: 20px;
+    font-size: 25px;
+  }
+  .profession h1{
+    font-size: 50px;
+  }
+  .profession h3{
+    font-size: 30px;
+  }
+  .skills h2{
+    
+    font-family:15px;
+    text-align: center;
+  }
+  .skills{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+  }
+  .list{
+    padding: 20px;
+  }
+  .list ul{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+  }
+  .list ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    width:25%;
+  }
+  .laboral-experience{
+    padding: 20px;
+  }
+  .laboral-experience ul{
+    display:flex;
+    flex-direction:column;
+    row-gap: 5px;
+    padding: 20px;
+  }
+  .laboral-experience ul li{
+    list-style: none;
+  }
+  .projects{
+    padding: 20px;
+  }
+  
+
+
+  .social{
+    padding: 20px;
+  }
+  .social ul{
+    padding: 40px;
+    display:flex;
+    column-gap: 10px;
+    justify-content: center;
+  }
+  .social ul li{
+    list-style: none;
+  }
+  .social ul li a{
+    text-decoration: none;
+  }
+  .form{
+    padding: 20px;
+  }
+  .form h2{
+    padding: 10px;
+  }
+  .form form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .form input,textarea{
+    background: none;
+    border: none;
+    padding: 15px;
+  }
+  .form-button{
+    background-color: rgb(215, 38, 61);
+    padding: 10px;
+    border: none;
+    width:70%;
+    align-self:center;
+    border-radius: 15px;
+  }
+  .thanks{
+    padding: 20px;
+  }
+
 }

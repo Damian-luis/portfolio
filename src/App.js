@@ -1,5 +1,20 @@
 import './App.css';
 import { InlineWidget } from "react-calendly";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaJsSquare } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { SiRedux } from "react-icons/si";
+import { SiExpress} from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
+import { SiLaravel} from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { SiGit } from "react-icons/si";
 function App() {
   return (
     <div className="App">
@@ -35,17 +50,17 @@ function App() {
         <h2>Un buen desarrolador sin un buen stack de tecnologias? Por supuesto que no!</h2>
         <div className="list">
           <ul>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-            <li>REDUX</li>
-            <li>EXPRESS JS</li>
-            <li>NODE JS</li>
-            <li>MY SQL</li>
-            <li>POSTGRESS</li>
-            <li>PHP</li>
-            <li>LARAVEL</li>
-            <li>GITHUB</li>
-            <li>GIT</li>
+            <li>JAVASCRIPT <FaJsSquare/> </li>
+            <li>REACT <FaReact/></li>
+            <li>REDUX <SiRedux/></li>
+            <li>EXPRESS JS <SiExpress/></li>
+            <li>NODE JS <FaNodeJs/></li>
+            <li>MY SQL <SiMysql/></li>
+            <li>POSTGRESS <SiPostgresql/></li>
+            <li>PHP <FaPhp/></li>
+            <li>LARAVEL <SiLaravel/></li>
+            <li>GITHUB <FaGithub/></li>
+            <li>GIT <SiGit/></li>
           </ul>
         </div>
       </div>
@@ -79,10 +94,10 @@ function App() {
         <h2>Hey! Buen viaje hasta aqui al fondo, eh? Aqui abajo se encuetran alguna de mis redes sociales donde podras hallarme ;)</h2>
         <h2>Tranquilo/a! No necesariamente hagamos esto tan formal! Podes escribirme y hablaremos de la vida, quizas un buen cafe espere por nosotros :)</h2>
         <ul>
-          <li>WhatsApp</li>
-          <li>Facebook</li>
-          <li>LinkedIn</li>
-          <li>Twitter</li>
+          <li>WhatsApp <FaWhatsapp/> +5493884872173</li>
+          <li><a href="https://www.facebook.com/damian.duran.35175/">Facebook <FaFacebookF/></a></li>
+          <li><a href="https://ar.linkedin.com/in/dami%C3%A1n-duran-5a17b0231">LinkedIn <FaLinkedinIn/></a></li>
+          <li><a href="https://github.com/Damian-luis">Github <FaGithubSquare/></a></li>
         </ul>
       </div>
 

@@ -47,20 +47,20 @@ function App() {
       </div>
 
       <div className="skills">
-        <h2>Un buen desarrolador sin un buen stack de tecnologias? Por supuesto que no!</h2>
+        <h2>Un buen desarrolador sin un buen stack de tecnologias? <br/> Por supuesto que no!</h2>
         <div className="list">
           <ul>
-            <li>JAVASCRIPT <FaJsSquare/> </li>
-            <li>REACT <FaReact/></li>
-            <li>REDUX <SiRedux/></li>
-            <li>EXPRESS JS <SiExpress/></li>
-            <li>NODE JS <FaNodeJs/></li>
-            <li>MY SQL <SiMysql/></li>
-            <li>POSTGRESS <SiPostgresql/></li>
-            <li>PHP <FaPhp/></li>
-            <li>LARAVEL <SiLaravel/></li>
-            <li>GITHUB <FaGithub/></li>
-            <li>GIT <SiGit/></li>
+            <li> <FaJsSquare/> JAVASCRIPT</li>
+            <li><FaReact/> REACT </li>
+            <li> <SiRedux/> REDUX</li>
+            <li> <SiExpress/> EXPRESS JS</li>
+            <li><FaNodeJs/> NODE JS </li>
+            <li> <SiMysql/> MY SQL</li>
+            <li> <SiPostgresql/> POSTGRESS</li>
+            <li> <FaPhp/> PHP</li>
+            <li><SiLaravel/> LARAVEL </li>
+            <li><FaGithub/> GITHUB </li>
+            <li> <SiGit/> GIT</li>
           </ul>
         </div>
       </div>

@@ -34,12 +34,24 @@ body {
       padding-top: 8%;
       padding-bottom:8%;
     }
+    .profession h1{
+      padding-bottom: 10px;
+    }
+    .profession h3{
+      width:60%;
+      padding-bottom: 15px;
+      border-bottom: solid 5px;
+      border-bottom-color:rgb(215, 38, 61) ;
+    }
     .presentacion{
       padding: 20px;
     }
     .skills{
       padding: 20px;
       font-family:15px;
+    }
+    .skills h2{
+      text-align: center;
     }
     .list{
       padding: 20px;
@@ -48,9 +60,19 @@ body {
       display:flex;
       flex-direction:column;
       row-gap: 5px;
+      align-items: center;
     }
     .list ul li{
       list-style: none;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap:25px;
+      padding: 30px;
+    }
+    .list ul li svg{
+      width: 50px;
+      height: 50px;
     }
     .laboral-experience{
       padding: 20px;
@@ -140,10 +162,14 @@ body {
   }
   .profession h3{
     font-size: 30px;
+    width: 450px;
+    padding-bottom: 25px;
+    border-bottom: solid 8px;
+    border-bottom-color:rgb(215, 38, 61) ;
   }
   .skills h2{
     
-    font-family:15px;
+    font-size:30px;
     text-align: center;
   }
   .skills{
@@ -157,14 +183,21 @@ body {
   .list ul{
     display:flex;
     flex-wrap: wrap;
-    row-gap: 5px;
+    row-gap: 50px;
+    justify-content: center;
   }
   .list ul li{
     list-style: none;
     display: flex;
     flex-direction: column;
-    
     width:25%;
+    padding: 10px;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .list ul li svg{
+    width: 50px;
+    height: 50px;
   }
   .laboral-experience{
     padding: 20px;

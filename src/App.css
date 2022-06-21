@@ -2,6 +2,7 @@
   margin:0px;
   padding:0px;
   box-sizing: border-box;
+  color:white;
 }
 body {
   background-color:rgb(11, 19, 43)
@@ -11,4 +12,101 @@ body {
 }
 .laboral-experience{
   background-color:rgb(215, 38, 61)
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .background{
+      width:100vw;
+      height: 200px;
+    }
+    .background img{
+      width: 100%;
+      height: 200px;
+    }
+    .profession{
+      padding-left: 8%;
+      padding-top: 8%;
+      padding-bottom:8%;
+    }
+    .presentacion{
+      padding: 20px;
+    }
+    .skills{
+      padding: 20px;
+      font-family:15px;
+    }
+    .list{
+      padding: 20px;
+    }
+    .list ul{
+      display:flex;
+      flex-direction:column;
+      row-gap: 5px;
+    }
+    .list ul li{
+      list-style: none;
+    }
+    .laboral-experience{
+      padding: 20px;
+    }
+    .laboral-experience ul{
+      display:flex;
+      flex-direction:column;
+      row-gap: 5px;
+      padding: 20px;
+    }
+    .laboral-experience ul li{
+      list-style: none;
+    }
+    .projects{
+      padding: 20px;
+    }
+    
+
+
+    .social{
+      padding: 20px;
+    }
+    .social ul{
+      padding: 40px;
+      display:flex;
+      column-gap: 10px;
+      justify-content: center;
+    }
+    .social ul li{
+      list-style: none;
+    }
+    .form{
+      padding: 20px;
+    }
+    .form h2{
+      padding: 10px;
+    }
+    .form form{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .form input,textarea{
+      background: none;
+      border: none;
+      padding: 15px;
+    }
+    .form-button{
+      background-color: rgb(215, 38, 61);
+      padding: 10px;
+      border: none;
+      width:70%;
+      align-self:center;
+      border-radius: 15px;
+    }
+    .thanks{
+      padding: 20px;
+    }
 }

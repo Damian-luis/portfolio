@@ -1,8 +1,17 @@
 import './App.css';
-
+import { InlineWidget } from "react-calendly";
 function App() {
   return (
     <div className="App">
+      <div className="background">
+      <img src="https://p1.pxfuel.com/preview/825/228/861/macbook-laptop-computer-technology-business-office.jpg"/>
+      </div>
+
+
+
+
+
+
       <div className='profession'>
         <h1>Damian Duran</h1>
         <h3>FULL STACK DEVELOPER</h3>
@@ -88,13 +97,17 @@ function App() {
         <label htmlFor="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
 
-        <input type="submit" value="Submit"></input>
+        <button className="form-button" type="submit">Enviar mensaje</button>
         </form>
       </div>
 
       <div className="thanks">
         <h3>Quiero tomarme este espacio para agradecerte por haberte pasado por mi pequeño portfolio, siento que de una vez por todas todo finalmente va a estar bien. Esta vez vez todo estará bien.</h3>
       </div>
+
+
+    
+
     </div>
   );
 }

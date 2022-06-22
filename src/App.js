@@ -32,13 +32,11 @@ function App() {
         <h3>FULL STACK DEVELOPER</h3>
       </div>
       <div className="presentacion">
-        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </h4>
-        <h2>Por que yo?</h2>
-        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </h4>
+        <h4>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </h4>
+        <h2>Por que yo en especifico?</h2>
+        <h4>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, yo soy más de ser cortito y al pie, soy 100% leal.😊 </h4>
         <h2>Un poco sobre mi...</h2>
-        <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        <h4> Comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
         </h4>
       </div>
 
@@ -47,7 +45,8 @@ function App() {
       </div>
 
       <div className="skills">
-        <h2>Un buen desarrolador sin un buen stack de tecnologias? <br/> Por supuesto que no!</h2>
+        <h2>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
+        He aqui un par de tecnologias que he aprendido con el tiempo:</h2>
         <div className="list">
           <ul>
             <li> <FaJsSquare/> JAVASCRIPT</li>

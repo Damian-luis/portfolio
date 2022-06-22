@@ -33,20 +33,22 @@ function App() {
       </div>
       <div className="presentacion">
         <h4>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </h4>
-        <h2>Por que yo en especifico?</h2>
+        <h3>Por que yo en especifico?</h3>
         <h4>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, yo soy más de ser cortito y al pie, soy 100% leal.😊 </h4>
-        <h2>Un poco sobre mi...</h2>
+        <h3>Un poco sobre mi...</h3>
         <h4> Comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
         </h4>
       </div>
 
       <div className="fotos">
-
+          <div className="mi-foto">
+            <img src={require("./foto.jpg")} className="foto"/>
+          </div>
       </div>
 
       <div className="skills">
-        <h2>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
-        He aqui un par de tecnologias que he aprendido con el tiempo:</h2>
+        <h3>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
+        He aqui un par de tecnologias que he aprendido con el tiempo:</h3>
         <div className="list">
           <ul>
             <li> <FaJsSquare/> JAVASCRIPT</li>

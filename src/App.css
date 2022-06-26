@@ -7,12 +7,10 @@
 body {
   background-color:rgb(11, 19, 43)
 }
-.skills{
-  background-color:rgb(28, 37, 65)
-}
-.laboral-experience{
-  background-color:rgb(215, 38, 61)
-}
+/*.skills{
+  
+} */
+
 
 
 
@@ -66,6 +64,8 @@ body {
     .skills{
       padding: 20px;
       text-align: center;
+      border-top: solid 3px rgb(215, 38, 61);
+      
     }
     .skills h2{
       text-align: center;
@@ -92,21 +92,37 @@ body {
       height: 50px;
     }
     .laboral-experience{
-      padding: 20px;
+      padding: 35px;
+      
+    border-top: solid 3px rgb(215, 38, 61);
+    border-bottom: solid 3px rgb(215, 38, 61);
     }
     .laboral-experience ul{
       display:flex;
       flex-direction:column;
       row-gap: 5px;
-      padding: 20px;
+      padding: 20px 40px;
+      background-color:rgb(28, 37, 65);
+      margin-top: 18px;
+      border-radius: 15px;
     }
     .laboral-experience ul li{
       font-size: 15px;
     }
     .projects{
       padding: 20px;
+      display:flex;
+      flex-direction: column;
+      row-gap:20px;
+      align-items: center;
     }
-    
+    .project{
+      width: 80%;
+    }
+    .project img{
+      width: 100%;
+      height: 150px;
+    }
 
 
     .social{
@@ -117,12 +133,19 @@ body {
       display:flex;
       column-gap: 10px;
       justify-content: center;
+      flex-direction: column;
+      row-gap:20px;
+
     }
     .social ul li{
       list-style: none;
     }
     .social ul li a{
       text-decoration: none;
+    }
+    .social ul li a svg{
+      width: 30px;
+    height: 30px;
     }
     .form{
       padding: 20px;

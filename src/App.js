@@ -124,7 +124,9 @@ async function fetchHandler(e) {
           <img src={require("./screen2.png")}/> </a>
         </div>
         <div className="project">
-          
+        <p>Aplicacion tipo consultora de Ropa hecha con React</p>
+        <a href="https://ventas-ropa.vercel.app/"></a>
+        
         </div>
       </div>
 

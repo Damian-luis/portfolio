@@ -61,10 +61,26 @@ async function fetchHandler(e) {
         <h1>Damian Duran</h1>
         <h3>FULL STACK DEVELOPER</h3>
       </div>
+
+      
       
 
+      <div className="presentacion" data-aos="zoom-in">
+        <p>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </p>
+        <h4>Por que yo en especifico?</h4>
+        <p>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, sin  embargo lo cierto es que si hay personas
+          que pudan y que estan haciendo lo que yo, personalmente un atributo que no es tan destacado pero siento que en realidad es muy importante, es que soy leal, a mi trabajo
+          y a mi equipo.
+        </p>
+        
+      </div>
+
+
+
+
+
       <div className="skills">
-        <p>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
+        <p>Bueno bueno, y que hay de mis tecnologias?🤔<br/> Las enlisto aqui abajo!!!!😉<br/> 
         He aqui un par de tecnologias que he aprendido con el tiempo:</p>
         <div className="list">
           <ul>
@@ -84,14 +100,16 @@ async function fetchHandler(e) {
       </div>
 
       <div className="laboral-experience">
-        <p>En cuanto a mi experiecia laboral trabajé como desarrolador backend, creando apis para el consumo del frontend, cual, dicho sea de paso, me desempeñé en ambos cargos.</p>
-        <p>Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como.</p>
+        <p>En cuanto a mi experiecia laboral trabajé como desarrolador backend en una empresa llamada Webleads en febrero de 2022, creando apis para el consumo del frontend, cual, dicho sea de paso, me desempeñé en ambos cargos.
+          <br/> (Información mas detallada en CV)
+        </p>
+        <p>Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como:</p>
         <ul>
-          <li data-aos="fade-right">Trabajar en equipo</li>
-          <li data-aos="fade-right">Metodologias agiles</li>
-          <li data-aos="fade-right">Aprender una nueva tecnologia</li>
-          <li data-aos="fade-right">Capacidad de adaptarse a cualquier proyecto</li>
-          <li data-aos="fade-right">Planeamiento y avance diario</li>
+          <li >Trabajar en equipo</li>
+          <li >Metodologias agiles</li>
+          <li >Aprender una nueva tecnologia</li>
+          <li >Capacidad de adaptarse a cualquier proyecto</li>
+          <li >Planeamiento y avance diario</li>
         </ul>
       </div>
 
@@ -121,10 +139,10 @@ async function fetchHandler(e) {
         <p>Hey! Buen viaje hasta aqui al fondo, eh? Aqui abajo se encuetran alguna de mis redes sociales donde podras hallarme ;)</p>
         <p>Tranquilo/a! No necesariamente hagamos esto tan formal! Podes escribirme y hablaremos de la vida, quizas un buen cafe espere por nosotros :)</p>
         <ul>
-          <li><a href="https://wa.me/5493884872173">WhatsApp <FaWhatsapp/></a></li>
-          <li><a href="https://www.facebook.com/damian.duran.35175/">Facebook <FaFacebookF/></a></li>
-          <li><a href="https://ar.linkedin.com/in/dami%C3%A1n-duran-5a17b0231">LinkedIn <FaLinkedinIn/></a></li>
-          <li><a href="https://github.com/Damian-luis">Github <FaGithubSquare/></a></li>
+          <li data-aos="fade-right"><a href="https://wa.me/5493884872173"><p>WhatsApp </p><FaWhatsapp/></a></li>
+          <li data-aos="fade-right"><a href="https://www.facebook.com/damian.duran.35175/"><p>Facebook </p><FaFacebookF/></a></li>
+          <li data-aos="fade-right"><a href="https://ar.linkedin.com/in/dami%C3%A1n-duran-5a17b0231"><p>LinkedIn </p><FaLinkedinIn/></a></li>
+          <li data-aos="fade-right"><a href="https://github.com/Damian-luis"><p>Github </p><FaGithubSquare/></a></li>
         </ul>
       </div>
 
@@ -148,15 +166,12 @@ async function fetchHandler(e) {
 
 
 
-      <div className="presentacion" data-aos="zoom-in">
-        <p>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </p>
-        <h4>Por que yo en especifico?</h4>
-        <p>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, yo soy más de ser cortito y al pie, soy 100% leal.😊 </p>
-        <h4>Un poco sobre mi...</h4>
-        <p> Comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
+      
+<div className="about-me">
+<h4>Un poco sobre mi...</h4>
+        <p>Tengo 23 años, vivo en Argentina, comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
         </p>
-      </div>
-
+</div>
       <div className="fotos">
           <div className="mi-foto" data-aos="zoom-in">
             <img src={require("./foto.jpg")} className="foto"/>
@@ -169,7 +184,8 @@ async function fetchHandler(e) {
 
 
       <div className="thanks">
-        <h4>Quiero tomarme este espacio para agradecerte por haberte pasado por mi pequeño portfolio, siento que de una vez por todas todo finalmente va a estar bien. Esta vez vez todo estará bien.</h4>
+        <h4>Quiero tomarme este espacio para agradecerte por haberte pasado por mi pequeño portfolio, no es lo mejor del mundo pero es hecho totalmente por mi<br />
+        Muchas gracias!</h4>
       </div>
 
 

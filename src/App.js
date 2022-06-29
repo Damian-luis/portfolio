@@ -102,8 +102,8 @@ async function fetchHandler(e) {
       <div className="laboral-experience">
         <p>En cuanto a mi experiecia laboral trabajé como desarrolador backend en una empresa llamada Webleads en febrero de 2022, creando apis para el consumo del frontend, cual, dicho sea de paso, me desempeñé en ambos cargos.
           <br/> (Información mas detallada en CV)
-        </p>
-        <p>Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como:</p>
+        
+        Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como:</p>
         <ul>
           <li >Trabajar en equipo</li>
           <li >Metodologias agiles</li>
@@ -129,8 +129,8 @@ async function fetchHandler(e) {
           <img src={require("./screen2.png")}/> </a>
         </div>
         <div className="project">
-        
-        <a href="https://ventas-ropa.vercel.app/"><p>Aplicacion tipo consultora de Ropa hecha con React</p></a>
+        <p>Aplicacion tipo consultora de Ropa hecha con React</p>
+        <a href="https://ventas-ropa.vercel.app/"> <img src={require("./screen2.png")}/></a>
         
         </div>
       </div>

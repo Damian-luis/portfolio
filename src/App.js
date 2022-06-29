@@ -48,9 +48,9 @@ async function fetchHandler(e) {
   
   return (
     <div className="App">
-      <div className="background">
+     {/* <div className="background">
       <img src="https://p1.pxfuel.com/preview/825/228/861/macbook-laptop-computer-technology-business-office.jpg"/>
-      </div>
+  </div>  */}
 
 
 
@@ -61,24 +61,11 @@ async function fetchHandler(e) {
         <h1>Damian Duran</h1>
         <h3>FULL STACK DEVELOPER</h3>
       </div>
-      <div className="presentacion" data-aos="zoom-in">
-        <h4>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </h4>
-        <h3>Por que yo en especifico?</h3>
-        <h4>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, yo soy más de ser cortito y al pie, soy 100% leal.😊 </h4>
-        <h3>Un poco sobre mi...</h3>
-        <h4> Comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
-        </h4>
-      </div>
-
-      <div className="fotos">
-          <div className="mi-foto" data-aos="zoom-in">
-            <img src={require("./foto.jpg")} className="foto"/>
-          </div>
-      </div>
+      
 
       <div className="skills">
-        <h3>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
-        He aqui un par de tecnologias que he aprendido con el tiempo:</h3>
+        <p>Entonces...un buen desarrolador sin un buen stack de tecnologias!?!?🤔<br/> Por supuesto que NO!!!!😉<br/> 
+        He aqui un par de tecnologias que he aprendido con el tiempo:</p>
         <div className="list">
           <ul>
             <li data-aos="fade-up-left"> <FaJsSquare/> JAVASCRIPT</li>
@@ -97,8 +84,8 @@ async function fetchHandler(e) {
       </div>
 
       <div className="laboral-experience">
-        <h3>En cuanto a mi experiecia laboral trabajé como desarrolador backend, creando apis para el consumo del frontend, cual, dicho sea de paso, me desempeñé en ambos cargos.</h3>
-        <h3>Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como.</h3>
+        <p>En cuanto a mi experiecia laboral trabajé como desarrolador backend, creando apis para el consumo del frontend, cual, dicho sea de paso, me desempeñé en ambos cargos.</p>
+        <p>Por supusto no todas son habilidades tecnicas, en ese trabajo desarrollé las siguientes habilidades tales como.</p>
         <ul>
           <li data-aos="fade-right">Trabajar en equipo</li>
           <li data-aos="fade-right">Metodologias agiles</li>
@@ -109,7 +96,7 @@ async function fetchHandler(e) {
       </div>
 
       <div className="projects">
-        <h3>Entiendo cuan duro conocer a una persona a travez de textos puede ser, por lo que adjunto una lista de proyectos realizados</h3>
+        <p>Entiendo cuan duro conocer a una persona a travez de textos puede ser, por lo que adjunto una lista de proyectos realizados</p>
         <div className="project">
           <p>Este es una landing page para la empresa cual trabajo, hecha con React, y un formulario conectado a un backend
             que desplegué en Heroku hecho con Node usando Express JS.
@@ -131,8 +118,8 @@ async function fetchHandler(e) {
       </div>
 
       <div className="social">
-        <h3>Hey! Buen viaje hasta aqui al fondo, eh? Aqui abajo se encuetran alguna de mis redes sociales donde podras hallarme ;)</h3>
-        <h3>Tranquilo/a! No necesariamente hagamos esto tan formal! Podes escribirme y hablaremos de la vida, quizas un buen cafe espere por nosotros :)</h3>
+        <p>Hey! Buen viaje hasta aqui al fondo, eh? Aqui abajo se encuetran alguna de mis redes sociales donde podras hallarme ;)</p>
+        <p>Tranquilo/a! No necesariamente hagamos esto tan formal! Podes escribirme y hablaremos de la vida, quizas un buen cafe espere por nosotros :)</p>
         <ul>
           <li><a href="https://wa.me/5493884872173">WhatsApp <FaWhatsapp/></a></li>
           <li><a href="https://www.facebook.com/damian.duran.35175/">Facebook <FaFacebookF/></a></li>
@@ -142,7 +129,7 @@ async function fetchHandler(e) {
       </div>
 
       <div className="form" data-aos="fade-up">
-        <h2>Okay...lo hacemos mas formal? Enviame un mensaje para hablar, quizas podamos hacer algo juntos!</h2>
+        <h4>Okay...lo hacemos mas formal? Enviame un mensaje para hablar, quizas podamos hacer algo juntos!</h4>
 
         <form onSubmit={fetchHandler}>
         <label htmlFor="fname">Nombre</label>
@@ -155,6 +142,31 @@ async function fetchHandler(e) {
         <button className="form-button" type="submit">Enviar mensaje</button>
         </form>
       </div>
+
+
+
+
+
+
+      <div className="presentacion" data-aos="zoom-in">
+        <p>Hello there!!! Mi nombre es Damián Duran, soy desarrollador full stack 😇 </p>
+        <h4>Por que yo en especifico?</h4>
+        <p>Bueno podría comenzar a nombrar una lista de cosas que me hagan quedar bien, yo soy más de ser cortito y al pie, soy 100% leal.😊 </p>
+        <h4>Un poco sobre mi...</h4>
+        <p> Comencé hace un par de años a sentir que programar podría ser lo que me acabe definiendo, escribir código ya lo siento como algo dentro de mi, es lo que me mueve al final del día.
+        </p>
+      </div>
+
+      <div className="fotos">
+          <div className="mi-foto" data-aos="zoom-in">
+            <img src={require("./foto.jpg")} className="foto"/>
+          </div>
+      </div>
+
+
+
+      
+
 
       <div className="thanks">
         <h4>Quiero tomarme este espacio para agradecerte por haberte pasado por mi pequeño portfolio, siento que de una vez por todas todo finalmente va a estar bien. Esta vez vez todo estará bien.</h4>

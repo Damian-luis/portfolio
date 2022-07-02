@@ -114,30 +114,30 @@ async function fetchHandler(e) {
       </div>
 
       <div className="projects">
-        <p>Entiendo cuan duro conocer a una persona a travez de textos puede ser, por lo que adjunto una lista de proyectos realizados</p>
+        <p clasName="entiendo">Entiendo cuan duro conocer a una persona a travez de textos puede ser, por lo que adjunto una lista de proyectos realizados</p>
         <div className="project">
           <p>Este es una landing page para la empresa cual trabajo, hecha con React, y un formulario conectado a un backend
             que desplegué en Heroku hecho con Node usando Express JS.
           </p>
           <a href="https://pag-webleads-react.vercel.app/">
-          <img src={require("./screen.png")}/> </a>
+          <img src={require("./screen.png")} className="project-img"/> </a>
         </div>
         <div className="project">
           
           <p>No puedo decir mucha de esta, es una peticion fetch usando Axios a una api llamada "Random Users"</p>
         <a href="https://fetchbasic.vercel.app/">
-          <img src={require("./screen2.png")}/> </a>
+          <img src={require("./screen2.png")} className="project-img"/> </a>
         </div>
         <div className="project">
         <p>Aplicacion tipo consultora de Ropa hecha con React</p>
-        <a href="https://ventas-ropa.vercel.app/"> <img src={require("./screen3.png")}/></a>
+        <a href="https://ventas-ropa.vercel.app/"> <img src={require("./screen3.png")} className="project-img"/></a>
         
         </div>
       </div>
 
       <div className="social">
-        <p>Hey! Buen viaje hasta aqui al fondo, eh? Aqui abajo se encuetran alguna de mis redes sociales donde podras hallarme ;)</p>
-        <p>Tranquilo/a! No necesariamente hagamos esto tan formal! Podes escribirme y hablaremos de la vida, quizas un buen cafe espere por nosotros :)</p>
+        <p>Hey! Llegaste hasta aqui! Aqui abajo se encuetran alguna de mis redes sociales donde vas a poder encontrarme ;)<br />
+        Tranquilo/a! No necesariamente tiene que ser algo tan formal! Podes escribirme y hablaremos de la vida! :)</p>
         <ul>
           <li data-aos="fade-right"><a href="https://wa.me/5493884872173"><p>WhatsApp </p><FaWhatsapp/></a></li>
           <li data-aos="fade-right"><a href="https://www.facebook.com/damian.duran.35175/"><p>Facebook </p><FaFacebookF/></a></li>
@@ -165,7 +165,7 @@ async function fetchHandler(e) {
 
 
 
-
+<div className="line-up">
       
 <div className="about-me">
 <h4>Un poco sobre mi...</h4>
@@ -179,7 +179,7 @@ async function fetchHandler(e) {
       </div>
 
 
-
+      </div>
       
 
 

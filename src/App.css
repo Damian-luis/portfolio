@@ -116,11 +116,14 @@ body {
       padding: 20px;
       display:flex;
       flex-direction: column;
-      row-gap:20px;
+      row-gap:45px;
       align-items: center;
     }
     .project{
       width: 80%;
+    }
+    .project p{
+      padding-bottom: 25px;
     }
     .project img{
       width: 100%;
@@ -290,7 +293,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap:100px
+    row-gap:100px;
+    padding-bottom:100px;
 
   }
   .project p{
@@ -311,7 +315,10 @@ body {
     padding: 30px ;
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 100px;
+  }
+  .social p{
+    text-align: center;
   }
   .social ul{
     padding: 40px;

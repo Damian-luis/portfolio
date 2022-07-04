@@ -124,7 +124,7 @@ async function fetchHandler(e) {
         </div>
         <div className="project">
           
-          <p>No puedo decir mucha de esta, es una peticion fetch usando Axios a una api llamada "Random Users"</p>
+          <p>App que solicita datos de una api que realize en node, se pueden filtrar los resultados por estado y género (aclaracion en la misma pagina)</p>
         <a href="https://fetchbasic.vercel.app/">
           <img src={require("./screen2.png")} className="project-img"/> </a>
         </div>

@@ -42,7 +42,12 @@ function messageHandler(e){
   setMessage(e.target.value)
 }
 async function fetchHandler(e) {
-  await axios.post("https://whispering-depths-85783.herokuapp.com/enviar",{name,mail,message})
+  e.preventDefault()
+  console.log(name +mail+message)
+  await axios.post("https://whispering-depths-85783.herokuapp.com/enviar",{name,mail,message}).then(e=>{console.log("eviados")})
+  setName("")
+  setMessage("")
+  setMail("")
 }
   
   
@@ -151,11 +156,11 @@ async function fetchHandler(e) {
 
         <form onSubmit={fetchHandler}>
         <label htmlFor="fname">Nombre</label>
-        <input type="text" id="fname" name="firstname" placeholder="Tu nombre..." onChange={nameHandler}/>
+        <input type="text" id="fname" name="firstname" placeholder="Tu nombre..." onChange={nameHandler} value={name}/>
         <label htmlFor="lname">Correo</label>
-        <input type="text" id="lname" name="lastname" placeholder="Tu correo electronico..." onChange={mailHandler}></input>
+        <input type="text" id="lname" name="lastname" placeholder="Tu correo electronico..." onChange={mailHandler} value={mail}/>
         <label htmlFor="subject">Sobre...</label>
-        <textarea id="subject" name="subject" placeholder="Escriba un tema por favor" onChange={messageHandler} ></textarea>
+        <textarea id="subject" name="subject" placeholder="Escriba un tema por favor" onChange={messageHandler} value={message}></textarea>
 
         <button className="form-button" type="submit">Enviar mensaje</button>
         </form>

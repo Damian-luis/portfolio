@@ -44,7 +44,7 @@ function messageHandler(e){
 async function fetchHandler(e) {
   e.preventDefault()
   console.log(name +mail+message)
-  await axios.post("https://whispering-depths-85783.herokuapp.com/enviar",{name,mail,message}).then(e=>{console.log("eviados")})
+  await axios.post("https://formportfolio.herokuapp.com/enviar",{name,mail,message}).then(e=>{console.log("eviados")})
   setName("")
   setMessage("")
   setMail("")
